@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/6ca25c8864.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>BOW</title>
+</head>
+<body>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg my-4 navbar-dark">
+                <a href="#" class="navbar-brand pl-5 mx-5 brand">
+                    <h4 class="text-uppercase font-weight-bold">
+                        BOW.
+                    </h4>
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavMenu" onclick="myFunction(this)">
+                    <div class="containers">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                      </div>
+                </button>
+              <div class="collapse navbar-collapse" id="myNavMenu" >
+                <ul class="navbar-nav ml-auto pr-5 mx-5">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-white">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="drop-menu" data-toggle="dropdown" >SERVICES</a>
+                    <div class="dropdown-menu" aria-labelledby="drop-menu">
+                        <a class="dropdown-item" href="#">Web Design</a>
+                        <a class="dropdown-item" href="#">eCommerce</a>
+                        <a class="dropdown-item" href="#">Branding</a>
+                        <a class="dropdown-item" href="#">API</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="drop-menu" data-toggle="dropdown">TOOLS</a>
+                    <div class="dropdown-menu" aria-labelledby="drop-menu">
+                        <a class="dropdown-item" href="#">HTML5</a>
+                        <a class="dropdown-item" href="#">CSS3</a>
+                        <a class="dropdown-item" href="#">Sass</a>
+                        <a class="dropdown-item" href="#">jQuery</a>
+                      </div>
+                </div>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">WORK</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">CONTACT</a>
+                  </li>
+                </ul>
+               </div>
+            </nav>
+            <div class="w-100 d-flex align-items-center justify-content-center h-50 my-5">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 text-center mt-5">
+                      <h1 class="title-header">We are Creative Studio</h1>
+                      <p class="text-header">Free html5 templates Made by <a href="#">amir.web</a></p>
+                      <button class="btn  btn-header text-uppercase px-4 py-3">view our work</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </header>
+        <main class="main">
+          <section class="service py-5">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-lg-3 col-sm-6 mb-5 mt-5">
+                    <span class="service-icon rounded-circle">
+                      <i class="far fa-eye"></i>
+                    </span>
+                    <h5 class="title-service">
+                      RETINA READY
+                    </h5>
+                    <p class="dexcription-service my-4">
+                      Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+                    </p>
+                    <button class="btn  btn-header text-capitalize px-4 py-2">learn more</button>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mt-5">
+                    <span class="service-icon rounded-circle">
+                      <i class="fas fa-power-off"></i>
+                    </span>
+                    <h5 class="title-service">
+                      WEB STARTER
+                    </h5>
+                    <p class="dexcription-service my-4">
+                      Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+                    </p>
+                    <button class="btn  btn-header text-capitalize px-4 py-2 mb-md-5 mb-lg-0">learn more</button>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mt-5">
+                    <span class="service-icon rounded-circle">
+                      <i class="fas fa-laptop"></i>
+                    </span>
+                    <h5 class="title-service">
+                      FULLY RESPONSIVE
+                    </h5>
+                    <p class="dexcription-service my-4">
+                      Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+                    </p>
+                    <button class="btn  btn-header text-capitalize px-4 py-2">learn more</button>
+                </div>
+                <div class=" col-lg-3 col-md-12 bg-services mb-5">
+                  <a href="#" role="button" data-toggle="modal" data-target="#modal">
+                      <span class="service-icon bg-light rounded-circle hover-icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
+                  </a>
+                </div>
+                <div class="modal fade" id="modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <video src="video/pexels-mart-production-7877137.mp4" controls width="100%" height="auto"></video>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="CoreFeatures py-5">
+            <div class="container">
+              <div class="row my-5">
+                  <div class="col-lg-9 col-md-12 ">
+                    <div class="my-4 text-capitalize font-weight-light title-core wow animate__animated animate__fadeInUp mr-lg-4">
+                      <h1 class="text-light">Core Features</h1>
+                      <p class="text-core">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-12 img-div">
+                        <img src="img/work_1.png"  class="img-fluid wow animate__animated animate__fadeInRight" width="100%">
+                      </div>
+                      <div class="col-md-6 col-sm-12">
+                        <div class="mb-4 wow animate__animated animate__fadeInLeft animate__delay-1s">
+                        <div class="title-core">
+                          <span class="text-light icon-core">
+                            <i class="fas fa-check"></i>
+                          </span>
+                          <span class="pl-2 text-light">RETINA READY</span>
+                        </div>
+                        <p class="text-core ">Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit</p>
+                        </div>
+                        <div class="mb-4 wow animate__animated animate__fadeInLeft animate__delay-2s">
+                        <div class="title-core">
+                          <span class="text-light icon-core">
+                            <i class="fas fa-check"></i>
+                          </span>
+                          <span class="pl-2 text-light">FULLY RESPONSIVE</span>
+                        </div>
+                        <p class="text-core ">Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit</p>
+                        </div>
+                        <div class="wow animate__animated animate__fadeInLeft animate__delay-3s  tekst">
+                        <div class="title-core">
+                          <span class="text-light icon-core">
+                            <i class="fas fa-check"></i>
+                          </span>
+                          <span class="pl-2 text-light">READY TO USE</span>
+                        </div>
+                        <p class="text-core ">Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-12 div-number py-5 d-flex flex-lg-column justify-content-md-center text-center">
+                    <div class="mb-lg-5 mr-sm-5 mr-md-5 mr-lg-0">
+                      <div class="wow animate__animated animate__fadeInUp  animate__delay-1s">
+                    <div class="box-number text-light font-weight-bold ">
+                      <h1 class="number">2200</h1>
+                    </div>
+                    <div class="box-text">
+                      <p class="text">CREATIVITY FUEL</p>
+                    </div>
+                  </div>
+                  </div>
+                    <div class="mb-lg-5 mr-sm-5 mr-md-5 mr-lg-0">
+                      <div class="wow animate__animated animate__fadeInUp  animate__delay-2s">
+                    <div class="box-number text-light font-weight-bold ">
+                      <h1 class="number">97</h1>
+                    </div>
+                    <div class="box-text">
+                      <p class="text">HAPPY CLIENTS</p>
+                    </div>
+                  </div>
+                  </div>
+                    <div class="mb-lg-5 mr-sm-5 mr-md-5 mr-lg-0">
+                      <div class="wow animate__animated animate__fadeInUp  animate__delay-3s">
+                    <div class="box-number text-light font-weight-bold ">
+                      <h1 class="number">402</h1>
+                    </div>
+                    <div class="box-text">
+                      <p class="text">PROJECTS DONE</p>
+                    </div>
+                  </div>
+                  </div>
+                    <div class="mb-lg-5 mr-sm-5 mr-md-5 mr-lg-0 ">
+                      <div class="wow animate__animated animate__fadeInUp  animate__delay-4s">
+                    <div class="box-number text-light font-weight-bold ">
+                      <h1 class="number">4523</h1>
+                    </div>
+                    <div class="box-text">
+                      <p class="text">HOURS SPENT</p>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section class="FinishedProject py-5">
+            <div class="container">
+              <div class="row my-5">
+                <div class="head-project text-center col col-lg-8 col-md-12 mx-auto wow animate__animated animate__fadeInUp">
+                  <h1 class="title-project">Finished Project</h1>
+                  <p class="text-project">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                </div>
+              </div>
+              <div class="row mt-lg-5">
+                <div class="col-lg-4 col-md-12 div-left-project">
+                  <div class="RealProject mb-2 mr-5 wow animate__animated animate__fadeInRight animate__delay-1s">
+                    <h5 class="title-service">Real Project For Real Solutions</h5>
+                    <p class="RealProject-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                  </div>
+                  <div class="RealProject-list mt-5 mb-5">
+                      <ul class="nav flex-column wow animate__animated animate__fadeInRight  animate__delay-1s">
+                        <li class="nav-item mt-3">
+                          <i class="fas fa-check icon-success"></i>Far far away, behind the word
+                        </li>
+                        <li class="nav-item mt-3">
+                          <i class="fas fa-check icon-success"></i>There live the blind texts
+                        </li>
+                        <li class="nav-item mt-3">
+                          <i class="fas fa-check icon-success"></i>Separated they live in bookmarksgrove
+                        </li>
+                        <li class="nav-item mt-3">
+                          <i class="fas fa-check icon-success"></i>Semantics a large language ocean
+                        </li>
+                        <li class="nav-item mt-3">
+                          <i class="fas fa-check icon-success"></i>A small river named Duden
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-md-12 box-project wow animate__animated animate__fadeInLeft ">
+                  <img src="img/work_1.png" width="100%">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="FinishedProject py-5 mr-lg-5">
+            <div class="container">
+              <div class="row mt-lg-5">
+                <div class="col-lg-7 col-md-12 box-project wow animate__animated animate__fadeInRight">
+                  <img src="img/work_1.png" width="100%">
+                </div>
+                <div class="col-lg-5 col-md-12">
+                  <div class="RealProject mb-2 mr-5 wow animate__animated animate__fadeInLeft animate__delay-1s">
+                    <h5 class="title-service"><i class="fas fa-user-tie icon-users"></i>Real Project For Real Solutions</h5>
+                    <p class="RealProject-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  </div>
+                  <div class="RealProject mb-2 mr-5 wow animate__animated animate__fadeInLeft animate__delay-2s ">
+                    <h5 class="title-service"><i class="fab fa-youtube  icon-users"></i>Real Project For Real Solutions</h5>
+                    <p class="RealProject-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  </div>
+                  <div class="RealProject mb-2 mr-5 wow animate__animated animate__fadeInLeft animate__delay-3s">
+                    <h5 class="title-service"><i class="fas fa-shield-alt icon-users"></i>Real Project For Real Solutions</h5>
+                    <p class="RealProject-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="Testimonial py-5">
+            <div class="container">
+              <div class="row my-5">
+                <div class="col-12 d-flex justify-content-center">
+                  <h2 class="title-project">Testimonial</h2>
+                </div>
+              </div>
+              <div class="row my-5">
+                <div class="col-md-12 col-lg-4 text-capitalize wow animate__animated animate__fadeInUp animate__delay-1s">
+                  <div class="box-Testimonial py-4 px-5">
+                    <p>“Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius”</p>
+                  </div>
+                  <span class="font-italic">John Doe</span>
+                </div>
+                <div class="col-md-12 col-lg-4 text-capitalize wow animate__animated animate__fadeInUp animate__delay-2s">
+                  <div class="box-Testimonial py-4 px-5">
+                    <p>“Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius”</p>
+                  </div>
+                  <span class="font-italic">Rob Smith</span>
+                </div>
+                <div class="col-md-12 col-lg-4 text-capitalize wow animate__animated animate__fadeInUp animate__delay-3s">
+                  <div class="box-Testimonial py-4 px-5">
+                    <p>“Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius”</p>
+                  </div>
+                  <span class="font-italic">Jane Doe</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="Newsletter py-5">
+            <div class="container">
+              <div class="row my-5">
+                <div class="text-center col col-lg-8 col-md-12 mx-auto wow animate__animated animate__fadeInUp">
+                  <h1 class="text-light font-weight-bold">Newsletter</h1>
+                  <p class="text-core">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                </div>
+              </div>
+              <div class="row my-5">
+                <form class="col-md-6 mx-auto wow animate__animated animate__fadeInUp">
+                  <div class="input-group">
+                    <input type="text" class="form-control input-form" placeholder="Email">
+                    <button class="btn btn-form text-uppercase">subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer py-5">
+          <div class="container">
+            <div class="row my-5">
+              <div class="col-lg-3 col-md-12">
+                <div class="footer-text text-right">
+                  <h5 class="title-project">THE COMPANY</h5>
+                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                  <a href="#" class="link-footer">Learn More</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 ">
+                <div class="footer-list ml-5">
+                  <ul class="nav flex-column">
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">About</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Help</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link text-dark">Terms</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Meetups</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 ">
+                <div class="footer-list ml-5">
+                  <ul class="nav flex-column">
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Shop</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Privacy</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link text-dark">Handbook</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Held Desk</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 ">
+                <div class="footer-list ml-5">
+                  <ul class="nav flex-column">
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Find Designers</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Find Developers</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link text-dark">Advertise</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link text-dark">API</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class=" justify-content-center text-center ml-sm-5">
+              <span>© 2016 Free HTML5. All Rights Reserved.</span>
+              <p class="text-footer">Designed by <a href="#">FreeHTML5.co</a> Demo Images: <a href="#">Unsplash</a></p>
+              <a href="#" class="footer-icon">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="footer-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="footer-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="footer-icon">
+                <i class="fa-brands fa-dribbble"></i>
+              </a>
+            </div>
+          </div>
+        </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        </script>
+</body>
+</html>
